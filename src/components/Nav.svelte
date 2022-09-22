@@ -20,7 +20,7 @@
 				<a class:current={segment === "about"} href="about">about</a>
 			</li>
 			<li>
-				<a class:current={segment === "jobs"} rel="prefetch" href="jobs"
+				<a rel=prefetch class:current={segment === "jobs"} rel="prefetch" href="jobs"
 					>jobs</a
 				>
 			</li>

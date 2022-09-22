@@ -1,5 +1,13 @@
 <script>
 	import successkid from "images/successkid.jpg";
+	import { onMount } from "svelte";
+
+	onMount(() => {
+		//safe for browser only code
+		console.log("only ever runs in the browser");
+	});
+
+	console.log("home");
 </script>
 
 <svelte:head>
